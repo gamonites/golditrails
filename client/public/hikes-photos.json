@@ -1,0 +1,739 @@
+{
+  "alta-via-2": {
+    "photos": [
+      {
+        "file": "alta-via-2.jpg",
+        "artist": "Paksu",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "alta-via-2-1.jpg",
+        "artist": "Paksu",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg/1280px-Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "alta-via-2-2.jpg",
+        "artist": "Hans Braam",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolomites_-_Alta_Via_2,_Stage_01-11_Bressanone_(Rifugio_Plose)_to_Rifugio_Genova_-_panoramio_(2).jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Dolomites_-_Alta_Via_2%2C_Stage_01-11_Bressanone_%28Rifugio_Plose%29_to_Rifugio_Genova_-_panoramio_%282%29.jpg/1280px-Dolomites_-_Alta_Via_2%2C_Stage_01-11_Bressanone_%28Rifugio_Plose%29_to_Rifugio_Genova_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "alta-via-2-3.jpg",
+        "artist": "Hans Braam",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolomites_-_Alta_Via_2,_Stage_02-11_Rifugio_Genova_to_Rifugio_Puez_-_panoramio.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dolomites_-_Alta_Via_2%2C_Stage_02-11_Rifugio_Genova_to_Rifugio_Puez_-_panoramio.jpg/1280px-Dolomites_-_Alta_Via_2%2C_Stage_02-11_Rifugio_Genova_to_Rifugio_Puez_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "tour-du-mont-blanc": {
+    "photos": [
+      {
+        "file": "tour-du-mont-blanc.jpg",
+        "artist": "Ximonic, Simo Räsänen",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Glacier_du_Mont_Mallet_(Glacier_du_G%C3%A9ant)_%26_Mont_Blanc,_2010_July.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Glacier_du_Mont_Mallet_(Glacier_du_G%C3%A9ant)_%26_Mont_Blanc,_2010_July.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "tour-du-mont-blanc-1.jpg",
+        "artist": "Ximonic, Simo Räsänen",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Glacier_du_Mont_Mallet_(Glacier_du_G%C3%A9ant)_%26_Mont_Blanc,_2010_July.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Glacier_du_Mont_Mallet_%28Glacier_du_G%C3%A9ant%29_%26_Mont_Blanc%2C_2010_July.jpg/1280px-Glacier_du_Mont_Mallet_%28Glacier_du_G%C3%A9ant%29_%26_Mont_Blanc%2C_2010_July.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "tour-du-mont-blanc-2.jpg",
+        "artist": "Cassican",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg/1280px-GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "tour-du-mont-blanc-3.jpg",
+        "artist": "Rémih",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR_Tour_du_Mont-Blanc_@_Les_Montets.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/GR_Tour_du_Mont-Blanc_%40_Les_Montets.jpg/1280px-GR_Tour_du_Mont-Blanc_%40_Les_Montets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "walkers-haute-route": {
+    "photos": [
+      {
+        "file": "walkers-haute-route.jpg",
+        "artist": "Dirk Beyer",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Matterhorn_Riffelsee_2005-06-11.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Matterhorn_Riffelsee_2005-06-11.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "walkers-haute-route-1.jpg",
+        "artist": "Melanie Zette",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Boulangerie_Marie_Blach%C3%A8re,_route_de_Fronton,_Aucamville,_Haute-Garonne.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Boulangerie_Marie_Blach%C3%A8re%2C_route_de_Fronton%2C_Aucamville%2C_Haute-Garonne.jpg/1280px-Boulangerie_Marie_Blach%C3%A8re%2C_route_de_Fronton%2C_Aucamville%2C_Haute-Garonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "walkers-haute-route-2.jpg",
+        "artist": "Hyppolyte de Saint-Rambert",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rigny_(Haute-Sa%C3%B4ne)_V%C3%A9lo_route_hdsr_VLux5_LD59.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD59.jpg/1280px-Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD59.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "walkers-haute-route-3.jpg",
+        "artist": "Hyppolyte de Saint-Rambert",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rigny_(Haute-Sa%C3%B4ne)_V%C3%A9lo_route_hdsr_VLux5_LD60.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD60.jpg/1280px-Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "tour-of-the-vanoise": {
+    "photos": [
+      {
+        "file": "tour-of-the-vanoise.jpg",
+        "artist": "The original uploader was Cevenol2 at French Wikipedia.",
+        "license": "CC BY-SA 2.0 fr",
+        "source": "https://commons.wikimedia.org/wiki/File:La_grande_casse_massif_vanoise.JPG",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:La_grande_casse_massif_vanoise.JPG",
+        "safeForPublic": true
+      },
+      {
+        "file": "tour-of-the-vanoise-1.jpg",
+        "artist": "Florian Pépellin",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Route_du_col_de_la_Madeleine_devenue_piste_de_ski_(janvier_2022).JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Route_du_col_de_la_Madeleine_devenue_piste_de_ski_%28janvier_2022%29.JPG/1280px-Route_du_col_de_la_Madeleine_devenue_piste_de_ski_%28janvier_2022%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "tour-of-the-vanoise-2.jpg",
+        "artist": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:ISS018-E-34167_-_View_of_France_-_Tarentaise_valley_-_Massif_du_Beaufortain_-_D%C3%B4me_de_Vaugelaz_-_Le_Roignais_-_Sommet_de_Bellec%C3%B4te_(Vanoise_massif)_-_Testa_del_Rutor_(Graian_Alps)_-_Tour_du_Tignet_-_Aosta_Valley_-_Courmayeur_(cropped).jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/ISS018-E-34167_-_View_of_France_-_Tarentaise_valley_-_Massif_du_Beaufortain_-_D%C3%B4me_de_Vaugelaz_-_Le_Roignais_-_Sommet_de_Bellec%C3%B4te_%28Vanoise_massif%29_-_Testa_del_Rutor_%28Graian_Alps%29_-_Tour_du_Tignet_-_Aosta_Valley_-_Courmayeur_%28cropped%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "grande-traversee-de-la-chartreuse": {
+    "photos": [
+      {
+        "file": "grande-traversee-de-la-chartreuse.jpg",
+        "artist": "Patrice78500",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Massif_de_la_Chartreuse_depuis_le_Cr%C3%AAt_Luisard.JPG",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Massif_de_la_Chartreuse_depuis_le_Cr%C3%AAt_Luisard.JPG",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "kumano-kodo-nakahechi": {
+    "photos": [
+      {
+        "file": "kumano-kodo-nakahechi.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_forest.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_forest.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "kumano-kodo-nakahechi-1.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_Teahouse.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kumano_Kodo_Teahouse.jpg/1280px-Kumano_Kodo_Teahouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "kumano-kodo-nakahechi-2.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_Forest.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Kumano_Kodo_Forest.jpg/1280px-Kumano_Kodo_Forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "kumano-kodo-nakahechi-3.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_forest.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Kumano_Kodo_forest.jpg/1280px-Kumano_Kodo_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "kumano-kodo-nakahechi-5.jpg",
+        "artist": "via Reddit post (r/SeaOfFashion)",
+        "license": "© photographer, used with credit",
+        "source": "https://www.reddit.com/r/SeaOfFashion/comments/fdyv4h/meet_sid_from_ice_age/",
+        "provider": "reddit",
+        "url": "https://i.redd.it/9qbjtlgx4wk41.jpg",
+        "safeForPublic": false
+      }
+    ]
+  },
+  "west-highland-way": {
+    "photos": [
+      {
+        "file": "west-highland-way.jpg",
+        "artist": "Nigel Brown",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:West_Highland_Way_-_geograph.org.uk_-_585887.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:West_Highland_Way_-_geograph.org.uk_-_585887.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "west-highland-way-1.jpg",
+        "artist": "Alan Reid",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:West_Highland_Way_-_geograph.org.uk_-_2694307.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/West_Highland_Way_-_geograph.org.uk_-_2694307.jpg/1280px-West_Highland_Way_-_geograph.org.uk_-_2694307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "west-highland-way-2.jpg",
+        "artist": "Steven Brown",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sheepfold_on_the_West_Highland_Way_-_geograph.org.uk_-_3759183.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Sheepfold_on_the_West_Highland_Way_-_geograph.org.uk_-_3759183.jpg/1280px-Sheepfold_on_the_West_Highland_Way_-_geograph.org.uk_-_3759183.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "west-highland-way-3.jpg",
+        "artist": "Steven Brown",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:West_Highland_Way_at_Lairigmor_-_geograph.org.uk_-_3759208.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/West_Highland_Way_at_Lairigmor_-_geograph.org.uk_-_3759208.jpg/1280px-West_Highland_Way_at_Lairigmor_-_geograph.org.uk_-_3759208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "pennine-way": {
+    "photos": [
+      {
+        "file": "pennine-way.jpg",
+        "artist": "Oliver Dixon",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Junction_of_Pennine_Way_and_Pennine_Cycleway_-_geograph.org.uk_-_2424704.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Junction_of_Pennine_Way_and_Pennine_Cycleway_-_geograph.org.uk_-_2424704.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "pennine-way-1.jpg",
+        "artist": "David Dixon",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Pennine_Way_-_geograph.org.uk_-_2481307.jpg",
+        "provider": "commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Pennine_Way_-_geograph.org.uk_-_2481307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "safeForPublic": true
+      },
+      {
+        "file": "pennine-way-2.jpg",
+        "artist": "Michael Graham",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:On_The_Pennine_Way_-_geograph.org.uk_-_4720896.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/On_The_Pennine_Way_-_geograph.org.uk_-_4720896.jpg/1280px-On_The_Pennine_Way_-_geograph.org.uk_-_4720896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "pennine-way-3.jpg",
+        "artist": "Michael Graham",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:On_The_Pennine_Way_-_geograph.org.uk_-_4889781.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/On_The_Pennine_Way_-_geograph.org.uk_-_4889781.jpg/1280px-On_The_Pennine_Way_-_geograph.org.uk_-_4889781.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "juliana-trail": {
+    "photos": [
+      {
+        "file": "juliana-trail.jpg",
+        "artist": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here are not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Saslonch_da_Sacun_ora.JPG",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Saslonch_da_Sacun_ora.JPG",
+        "safeForPublic": true
+      },
+      {
+        "file": "juliana-trail-1.jpg",
+        "artist": "Judgefloro",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_01.JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_01.JPG/1280px-09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "juliana-trail-2.jpg",
+        "artist": "Judgefloro",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_03.JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_03.JPG/1280px-09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "juliana-trail-3.jpg",
+        "artist": "Judgefloro",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_06.JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_06.JPG/1280px-09993jfSanta_Juliana_Crow_Valley_Capas_Tarlacfvf_06.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "via-engiadina": {
+    "photos": [
+      {
+        "file": "via-engiadina.jpg",
+        "artist": "schoella",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Via_Engadina_-_panoramio.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Via_Engadina_-_panoramio.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "via-engiadina-1.jpg",
+        "artist": "FkMohr",
+        "license": "CC BY-SA 3.0 de",
+        "source": "https://commons.wikimedia.org/wiki/File:25-Maloja_Posta.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/25-Maloja_Posta.jpg/1280px-25-Maloja_Posta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "via-engiadina-2.jpg",
+        "artist": "FkMohr",
+        "license": "CC BY-SA 3.0 de",
+        "source": "https://commons.wikimedia.org/wiki/File:1945-Plan_di_Zoch.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1945-Plan_di_Zoch.jpg/1280px-1945-Plan_di_Zoch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "via-engiadina-3.jpg",
+        "artist": "Whgler",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lavin_Wegweiser.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lavin_Wegweiser.jpg/1280px-Lavin_Wegweiser.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "lechweg": {
+    "photos": [
+      {
+        "file": "lechweg.jpg",
+        "artist": "Unknown",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Arlberg_passstrasse.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Arlberg_passstrasse.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "lechweg-1.jpg",
+        "artist": "Christian Alexander Tietgen",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lechweg_Kiel-Elmschenhagen.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Lechweg_Kiel-Elmschenhagen.jpg/1280px-Lechweg_Kiel-Elmschenhagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "lechweg-2.jpg",
+        "artist": "Gerhard Eisenschink",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Lechweg_bei_Forchach.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Lechweg_bei_Forchach.jpg/1280px-Lechweg_bei_Forchach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "lechweg-3.jpg",
+        "artist": "Basotxerri",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Beginn_Lechweg_01.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Beginn_Lechweg_01.jpg/1280px-Beginn_Lechweg_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "cotswold-way": {
+    "photos": [
+      {
+        "file": "cotswold-way.jpg",
+        "artist": "Ballista at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cotswold_Way_at_Battle_of_Lansdown.JPG",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Cotswold_Way_at_Battle_of_Lansdown.JPG",
+        "safeForPublic": true
+      },
+      {
+        "file": "cotswold-way-1.jpg",
+        "artist": "Ballista at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cotswold_Way_at_Battle_of_Lansdown.JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Cotswold_Way_at_Battle_of_Lansdown.JPG/1280px-Cotswold_Way_at_Battle_of_Lansdown.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "dingle-way": {
+    "photos": [
+      {
+        "file": "dingle-way.jpg",
+        "artist": "Espresso Addict",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dingle_Way_north_of_Ballinknockane_-_geograph.org.uk_-_466407.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Dingle_Way_north_of_Ballinknockane_-_geograph.org.uk_-_466407.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "dingle-way-1.jpg",
+        "artist": "Superbass",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2019-07-20-Dingle_Lighthouse-0673.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2019-07-20-Dingle_Lighthouse-0673.jpg/1280px-2019-07-20-Dingle_Lighthouse-0673.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "gr20": {
+    "photos": [
+      {
+        "file": "gr20.jpg",
+        "artist": "Hermes from mars",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR20_Corsica_Montains-1.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:GR20_Corsica_Montains-1.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "gr20-1.jpg",
+        "artist": "Hermes from mars",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR20_Corsica_Montains-1.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/GR20_Corsica_Montains-1.jpg/1280px-GR20_Corsica_Montains-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "gr20-2.jpg",
+        "artist": "Hermes from mars",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR20_Corsica_Montains-2.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/GR20_Corsica_Montains-2.jpg/1280px-GR20_Corsica_Montains-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "gr20-3.jpg",
+        "artist": "Arnaud Abadie",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Passage_du_GR20.JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Passage_du_GR20.JPG/1280px-Passage_du_GR20.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "aiguilles-rouges-traverse": {
+    "photos": [
+      {
+        "file": "aiguilles-rouges-traverse.jpg",
+        "artist": "Nicolas Vigier",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Aiguilles_Rouges_depuis_le_Brevent.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Aiguilles_Rouges_depuis_le_Brevent.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "aiguilles-rouges-traverse-1.jpg",
+        "artist": "Nicolas Vigier",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Aiguilles_Rouges_depuis_le_Brevent.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Aiguilles_Rouges_depuis_le_Brevent.jpg/1280px-Aiguilles_Rouges_depuis_le_Brevent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "aiguilles-rouges-traverse-2.jpg",
+        "artist": "Alex Saunier",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Cabane_des_Aiguilles_Rouges_03.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Cabane_des_Aiguilles_Rouges_03.jpg/1280px-Cabane_des_Aiguilles_Rouges_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "aiguilles-rouges-traverse-3.jpg",
+        "artist": "Björn S...",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Aiguilles_Rouges_(12834560994).jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Aiguilles_Rouges_%2812834560994%29.jpg/1280px-Aiguilles_Rouges_%2812834560994%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "the-feather-route": {
+    "photos": [
+      {
+        "file": "the-feather-route.jpg",
+        "artist": "Frisia Orientalis",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Passo_di_Giau.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Passo_di_Giau.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-feather-route-1.jpg",
+        "artist": "Paksu",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg/1280px-Alta_Via_Camuna_vicino_a_Rifugio_Bozzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-feather-route-2.jpg",
+        "artist": "Hans Braam",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolomites_-_Alta_Via_2,_Stage_01-11_Bressanone_(Rifugio_Plose)_to_Rifugio_Genova_-_panoramio_(2).jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Dolomites_-_Alta_Via_2%2C_Stage_01-11_Bressanone_%28Rifugio_Plose%29_to_Rifugio_Genova_-_panoramio_%282%29.jpg/1280px-Dolomites_-_Alta_Via_2%2C_Stage_01-11_Bressanone_%28Rifugio_Plose%29_to_Rifugio_Genova_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-feather-route-3.jpg",
+        "artist": "Hans Braam",
+        "license": "CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolomites_-_Alta_Via_2,_Stage_02-11_Rifugio_Genova_to_Rifugio_Puez_-_panoramio.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dolomites_-_Alta_Via_2%2C_Stage_02-11_Rifugio_Genova_to_Rifugio_Puez_-_panoramio.jpg/1280px-Dolomites_-_Alta_Via_2%2C_Stage_02-11_Rifugio_Genova_to_Rifugio_Puez_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "the-soft-blanc": {
+    "photos": [
+      {
+        "file": "the-soft-blanc.jpg",
+        "artist": "Tinelot Wittermans",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mont_Blanc_and_Dome_du_Gouter.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Mont_Blanc_and_Dome_du_Gouter.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-soft-blanc-1.jpg",
+        "artist": "Ximonic, Simo Räsänen",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Glacier_du_Mont_Mallet_(Glacier_du_G%C3%A9ant)_%26_Mont_Blanc,_2010_July.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Glacier_du_Mont_Mallet_%28Glacier_du_G%C3%A9ant%29_%26_Mont_Blanc%2C_2010_July.jpg/1280px-Glacier_du_Mont_Mallet_%28Glacier_du_G%C3%A9ant%29_%26_Mont_Blanc%2C_2010_July.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-soft-blanc-2.jpg",
+        "artist": "Cassican",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg/1280px-GR5_-_TMB_au_nord_du_col_du_Bonhomme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-soft-blanc-3.jpg",
+        "artist": "Rémih",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:GR_Tour_du_Mont-Blanc_@_Les_Montets.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/GR_Tour_du_Mont-Blanc_%40_Les_Montets.jpg/1280px-GR_Tour_du_Mont-Blanc_%40_Les_Montets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "the-smooth-haute": {
+    "photos": [
+      {
+        "file": "the-smooth-haute.jpg",
+        "artist": "Dirk Beyer",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Matterhorn_Riffelsee_2005-06-11.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Matterhorn_Riffelsee_2005-06-11.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-smooth-haute-1.jpg",
+        "artist": "Melanie Zette",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Boulangerie_Marie_Blach%C3%A8re,_route_de_Fronton,_Aucamville,_Haute-Garonne.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Boulangerie_Marie_Blach%C3%A8re%2C_route_de_Fronton%2C_Aucamville%2C_Haute-Garonne.jpg/1280px-Boulangerie_Marie_Blach%C3%A8re%2C_route_de_Fronton%2C_Aucamville%2C_Haute-Garonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-smooth-haute-2.jpg",
+        "artist": "Hyppolyte de Saint-Rambert",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rigny_(Haute-Sa%C3%B4ne)_V%C3%A9lo_route_hdsr_VLux5_LD59.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD59.jpg/1280px-Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD59.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-smooth-haute-3.jpg",
+        "artist": "Hyppolyte de Saint-Rambert",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rigny_(Haute-Sa%C3%B4ne)_V%C3%A9lo_route_hdsr_VLux5_LD60.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD60.jpg/1280px-Rigny_%28Haute-Sa%C3%B4ne%29_V%C3%A9lo_route_hdsr_VLux5_LD60.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "the-sacred-loop": {
+    "photos": [
+      {
+        "file": "the-sacred-loop.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_forest.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_forest.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-sacred-loop-1.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_Teahouse.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kumano_Kodo_Teahouse.jpg/1280px-Kumano_Kodo_Teahouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-sacred-loop-2.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_Forest.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Kumano_Kodo_Forest.jpg/1280px-Kumano_Kodo_Forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "the-sacred-loop-3.jpg",
+        "artist": "VKaeru",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kumano_Kodo_forest.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Kumano_Kodo_forest.jpg/1280px-Kumano_Kodo_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  },
+  "alta-via-1": {
+    "photos": [
+      {
+        "file": "alta-via-1.jpg",
+        "artist": "Steinsplitter",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Drei_Zinnen_1.jpg",
+        "provider": "commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Drei_Zinnen_1.jpg",
+        "safeForPublic": true
+      },
+      {
+        "file": "alta-via-1-1.jpg",
+        "artist": "Llorenzi",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:SpillaAltaVia1.JPG",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/SpillaAltaVia1.JPG/1280px-SpillaAltaVia1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "alta-via-1-2.jpg",
+        "artist": "Susanne Tomkovic Suto",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wegmarkierung_Alta_Via_1.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Wegmarkierung_Alta_Via_1.jpg/1280px-Wegmarkierung_Alta_Via_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      },
+      {
+        "file": "alta-via-1-3.jpg",
+        "artist": "Llorenzi",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alta_Via_G%C3%BCnther_Messner.jpg",
+        "provider": "commons",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Alta_Via_G%C3%BCnther_Messner.jpg/1280px-Alta_Via_G%C3%BCnther_Messner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "safeForPublic": true
+      }
+    ]
+  }
+}

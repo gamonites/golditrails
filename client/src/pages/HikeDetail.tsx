@@ -5,8 +5,17 @@ import { useUser } from "../lib/hooks";
 import type { HikeDetailData } from "../lib/types";
 import DayTable from "../components/DayTable";
 import ElevationProfile from "../components/ElevationProfile";
+import HikeImage, { getManifest, type PhotoCredit } from "../components/HikeImage";
 import TrailMap from "../components/TrailMap";
 import { Alert, Badge, Button, Card, Spinner, Stat, categoryLabel, categoryTone } from "../components/ui";
+
+function domainOf(u: string): string {
+  try {
+    return new URL(u).hostname.replace(/^www\./, "");
+  } catch {
+    return u;
+  }
+}
 
 export default function HikeDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -14,7 +23,13 @@ export default function HikeDetail() {
   const [error, setError] = useState<string | null>(null);
   const [favIds, setFavIds] = useState<Set<number>>(new Set());
   const [busy, setBusy] = useState(false);
+  const [photos, setPhotos] = useState<PhotoCredit[] | null>(null);
   const { user } = useUser();
+
+  useEffect(() => {
+    setPhotos(null);
+    if (slug) getManifest().then((m) => setPhotos(m[slug]?.photos ?? []));
+  }, [slug]);
 
   useEffect(() => {
     setData(null);
@@ -106,6 +121,61 @@ export default function HikeDetail() {
         <div className="mt-4">
           <Alert>{error}</Alert>
         </div>
+      )}
+
+      {photos && photos.length > 0 && (
+        <div className="relative mt-6">
+          <HikeImage slug={hike.slug} alt={hike.name} className="max-h-[440px] w-full rounded-xl border border-outline" />
+          {!photos[0].safeForPublic && (
+            <span className="absolute right-3 top-3 rounded-full bg-tertiary px-2.5 py-1 text-[11px] font-bold text-on-tertiary">
+              Not for prod
+            </span>
+          )}
+        </div>
+      )}
+
+      {photos && photos.length > 1 && (
+        <Card className="mt-8 p-6">
+          <h2 className="text-lg font-bold">Photos from the trail</h2>
+          <p className="mt-1 text-sm text-on-surface-variant">
+            Click a photo to open its source. Photos tagged{" "}
+            <span className="font-semibold text-tertiary">Not for prod</span> come from blogs, Reddit posts, or
+            websites — fine for this private app, but the ones to remove if the site ever goes public.
+          </p>
+          <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {photos.slice(1).map((p) => (
+              <a
+                key={p.file}
+                href={p.source}
+                target="_blank"
+                rel="noreferrer"
+                className="group block overflow-hidden rounded-lg border border-outline bg-surface-high"
+              >
+                <div className="relative">
+                  <img
+                    src={`/hikes/${p.file}`}
+                    alt={`${hike.name} photo`}
+                    loading="lazy"
+                    className="aspect-[4/3] w-full object-cover transition group-hover:scale-[1.02]"
+                  />
+                  {!p.safeForPublic && (
+                    <span className="absolute right-2 top-2 rounded-full bg-tertiary px-2 py-0.5 text-[10px] font-bold text-on-tertiary">
+                      Not for prod
+                    </span>
+                  )}
+                </div>
+                <div className="space-y-0.5 p-2 text-[11px] leading-tight">
+                  <div className="truncate text-on-surface-variant" title={p.artist}>
+                    {p.artist}
+                  </div>
+                  <div className="truncate text-primary" title={p.source}>
+                    {domainOf(p.source)} ↗
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </Card>
       )}
 
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
