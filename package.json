@@ -1,0 +1,16 @@
+{
+  "name": "golditrails",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "bun run --parallel dev",
+    "dev:server": "bun --cwd server run dev",
+    "dev:client": "bun --cwd client run dev",
+    "seed": "bun --cwd server run seed",
+    "build": "bun --cwd client run build",
+    "start": "bun --cwd server run start"
+  }
+}
