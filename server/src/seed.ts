@@ -4,6 +4,8 @@ import type { HikeSpec, SectionSpec } from "./data/types";
 import { realHikes } from "./data/real";
 import { compositeHikes } from "./data/composites";
 import { LOGISTICS } from "./data/logistics";
+import { VIBES } from "./data/vibes";
+import { CAMPING } from "./data/camping";
 
 async function insertHike(h: HikeSpec) {
   let totalKm = 0;
@@ -69,6 +71,8 @@ async function insertHike(h: HikeSpec) {
     sources: JSON.stringify(h.sources),
     featured: !!h.featured,
     logistics: LOGISTICS[h.slug] ? JSON.stringify(LOGISTICS[h.slug]) : null,
+    vibes: VIBES[h.slug] ? JSON.stringify(VIBES[h.slug]) : null,
+    camping: CAMPING[h.slug] ? JSON.stringify(CAMPING[h.slug]) : null,
   });
 
   const realId = (hikeId as { toNumber: () => number }).toNumber?.() ?? (hikeId as unknown as number);

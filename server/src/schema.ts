@@ -52,11 +52,23 @@ export async function createSchema() {
     t.text("sources");
     t.boolean("featured").defaultTo(false);
     t.text("logistics");
+    t.text("vibes");
+    t.text("camping");
   });
   await knex.raw("CREATE UNIQUE INDEX IF NOT EXISTS hikes_slug_unique ON hikes (slug)");
   if (!(await knex.schema.hasColumn("hikes", "logistics"))) {
     await knex.schema.alterTable("hikes", (t) => {
       t.text("logistics");
+    });
+  }
+  if (!(await knex.schema.hasColumn("hikes", "vibes"))) {
+    await knex.schema.alterTable("hikes", (t) => {
+      t.text("vibes");
+    });
+  }
+  if (!(await knex.schema.hasColumn("hikes", "camping"))) {
+    await knex.schema.alterTable("hikes", (t) => {
+      t.text("camping");
     });
   }
   await knex.schema.createTableIfNotExists("hike_sections", (t) => {

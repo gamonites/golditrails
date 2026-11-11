@@ -74,6 +74,51 @@ export interface HikeLogistics {
   items: LogisticsItem[];
 }
 
+export interface VibesTown {
+  name: string;
+  vibe: string;
+  highlights: string[];
+}
+
+export interface VibesPhoto {
+  file: string;
+  artist: string | null;
+  license: string;
+  source: string;
+  url: string;
+  provider: string;
+  safeForPublic: boolean;
+}
+
+export interface HikeVibes {
+  slug: string;
+  vibe: string;
+  towns: VibesTown[];
+  photos: VibesPhoto[];
+}
+
+export interface ParkingEntry {
+  title: string;
+  where: string;
+  url: string | null;
+  notes: string;
+}
+
+export interface StageCamping {
+  day: number;
+  camping: string;
+  campingUrl: string | null;
+  wild: "allowed" | "tolerated" | "not allowed";
+  notes: string;
+}
+
+export interface HikeCamping {
+  slug: string;
+  parking: ParkingEntry[];
+  wildCampingRule: string;
+  stages: StageCamping[];
+}
+
 export interface HikeDetailData {
   hike: Hike & {
     exposure: string | null;
@@ -82,6 +127,8 @@ export interface HikeDetailData {
     description: string | null;
     sources: string[];
     logistics: HikeLogistics | null;
+    vibes: HikeVibes | null;
+    camping: HikeCamping | null;
   };
   sections: Section[];
   profile: ProfilePoint[];

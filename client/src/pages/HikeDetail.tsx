@@ -94,6 +94,8 @@ export default function HikeDetail() {
 
   const { hike, sections, profile, composition } = data;
   const logistics = hike.logistics;
+  const vibes = hike.vibes;
+  const camping = hike.camping;
   const isFav = favIds.has(hike.id);
 
   return (
@@ -325,6 +327,145 @@ export default function HikeDetail() {
                 </div>
               );
             })}
+          </div>
+        </Card>
+      )}
+
+      {camping && (
+        <Card className="mt-8 p-6">
+          <h2 className="text-lg font-bold">Camping</h2>
+          <p className="mt-1 text-sm text-on-surface-variant">
+            What wild camping is legal here, and your bed situation stage by stage.
+          </p>
+          <div className="mt-4">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">Wild camping rule</h3>
+            <Alert tone="info" className="mt-2">
+              {camping.wildCampingRule}
+            </Alert>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">Stage by stage</h3>
+            <div className="mt-2 overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-outline-variant text-xs uppercase tracking-wide text-on-surface-variant">
+                    <th className="py-2 pr-3">Day</th>
+                    <th className="py-2 pr-3">Designated sleep</th>
+                    <th className="py-2 pr-3">Wild camping</th>
+                    <th className="py-2">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {camping.stages.map((s) => (
+                    <tr key={s.day} className="border-b border-outline-variant/50 align-top">
+                      <td className="py-2 pr-3 font-semibold tabular-nums">{s.day}</td>
+                      <td className="py-2 pr-3">
+                        {s.campingUrl ? (
+                          <a href={s.campingUrl} target="_blank" rel="noreferrer" className="text-primary hover:underline">
+                            {s.camping} ↗
+                          </a>
+                        ) : (
+                          s.camping
+                        )}
+                      </td>
+                      <td className="py-2 pr-3">
+                        <Badge tone={s.wild === "allowed" ? "right" : s.wild === "tolerated" ? "neutral" : "hot"}>
+                          {s.wild}
+                        </Badge>
+                      </td>
+                      <td className="py-2 text-on-surface-variant">{s.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </Card>
+      )}
+
+      {camping && (
+        <Card className="mt-8 p-6">
+          <h2 className="text-lg font-bold">Parking</h2>
+          <p className="mt-1 text-sm text-on-surface-variant">Where to put the car.</p>
+          <ul className="mt-4 space-y-2">
+            {camping.parking.map((p, idx) => (
+              <li key={p.title + idx} className="rounded-lg border border-outline-variant bg-surface-low/50 p-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  {p.url ? (
+                    <a
+                      href={p.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-semibold text-primary hover:underline"
+                      title={p.url}
+                    >
+                      {p.title} ↗
+                    </a>
+                  ) : (
+                    <span className="font-semibold">{p.title}</span>
+                  )}
+                  {p.where && <span className="text-xs text-on-surface-variant">{p.where}</span>}
+                </div>
+                {p.notes && <p className="mt-1 text-sm leading-relaxed text-on-surface-variant">{p.notes}</p>}
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
+
+      {vibes && (
+        <Card className="mt-8 p-6">
+          <h2 className="text-lg font-bold">Vibes</h2>
+          <p className="mt-1 text-sm text-on-surface-variant">{vibes.vibe}</p>
+          {vibes.photos.length > 0 && (
+            <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              {vibes.photos.map((p) => (
+                <a
+                  key={p.file}
+                  href={p.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block overflow-hidden rounded-lg border border-outline bg-surface-high"
+                >
+                  <div className="relative">
+                    <img
+                      src={`/vibes/${p.file}`}
+                      alt={p.source}
+                      loading="lazy"
+                      className="aspect-[4/3] w-full object-cover transition group-hover:scale-[1.02]"
+                    />
+                    {!p.safeForPublic && (
+                      <span className="absolute right-2 top-2 rounded-full bg-tertiary px-2 py-0.5 text-[10px] font-bold text-on-tertiary">
+                        Not for prod
+                      </span>
+                    )}
+                  </div>
+                  <div className="space-y-0.5 p-2 text-[11px] leading-tight">
+                    <div className="truncate text-on-surface-variant" title={p.artist ?? p.source}>
+                      {p.artist ?? p.source}
+                    </div>
+                    <div className="truncate text-primary" title={p.source}>
+                      {domainOf(p.url)} ↗
+                    </div>
+                  </div>
+                </a>
+              ))}
+            </div>
+          )}
+          <div className="mt-6 space-y-4">
+            {vibes.towns.map((t) => (
+              <div key={t.name} className="rounded-lg border border-outline-variant bg-surface-low/50 p-4">
+                <h3 className="font-bold">{t.name}</h3>
+                <p className="mt-1 text-sm leading-relaxed text-on-surface-variant">{t.vibe}</p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {t.highlights.map((h) => (
+                    <Badge key={h} tone="neutral">
+                      {h}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </Card>
       )}
