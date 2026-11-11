@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { api } from "../lib/api";
 import { useUser } from "../lib/hooks";
-import type { HikeDetailData } from "../lib/types";
+import type { HikeDetailData, LogisticsCategory } from "../lib/types";
 import DayTable from "../components/DayTable";
 import ElevationProfile from "../components/ElevationProfile";
 import HikeImage, { getManifest, type PhotoCredit } from "../components/HikeImage";
@@ -16,6 +16,15 @@ function domainOf(u: string): string {
     return u;
   }
 }
+
+const LOGISTICS_ORDER: { key: LogisticsCategory; label: string }[] = [
+  { key: "transport", label: "Getting around" },
+  { key: "permit", label: "Permits & rules" },
+  { key: "lodging", label: "Where to sleep" },
+  { key: "booking", label: "Booking & passes" },
+  { key: "food", label: "Food & resupply" },
+  { key: "info", label: "Good to know" },
+];
 
 export default function HikeDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -84,6 +93,7 @@ export default function HikeDetail() {
     );
 
   const { hike, sections, profile, composition } = data;
+  const logistics = hike.logistics;
   const isFav = favIds.has(hike.id);
 
   return (
@@ -259,6 +269,65 @@ export default function HikeDetail() {
         <h2 className="mb-4 text-lg font-bold">Day by day</h2>
         <DayTable sections={sections} />
       </Card>
+
+      {logistics && (
+        <Card className="mt-8 p-6">
+          <h2 className="text-lg font-bold">Logistics &amp; Booking</h2>
+          <p className="mt-1 text-sm text-on-surface-variant">
+            Everything to arrange before you go — trains and shuttles, huts and hotels, food stops, passes and permits.
+            Items marked <Badge tone="hot">required</Badge> genuinely block the trip if you skip them.
+          </p>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <div className="rounded-lg border border-outline-variant bg-surface-low/50 p-3">
+              <div className="text-xs font-semibold uppercase tracking-wide text-primary">Getting there</div>
+              <p className="mt-1 text-sm leading-relaxed">{logistics.getIn}</p>
+            </div>
+            <div className="rounded-lg border border-outline-variant bg-surface-low/50 p-3">
+              <div className="text-xs font-semibold uppercase tracking-wide text-primary">Getting out</div>
+              <p className="mt-1 text-sm leading-relaxed">{logistics.getOut}</p>
+            </div>
+          </div>
+          <div className="mt-6 space-y-6">
+            {LOGISTICS_ORDER.map(({ key, label }) => {
+              const items = logistics.items.filter((i) => i.category === key);
+              if (items.length === 0) return null;
+              return (
+                <div key={key}>
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-on-surface-variant">{label}</h3>
+                  <ul className="mt-2 space-y-2">
+                    {items.map((it, idx) => (
+                      <li key={it.title + idx} className="rounded-lg border border-outline-variant bg-surface-low/50 p-3">
+                        <div className="flex flex-wrap items-center gap-2">
+                          {it.url ? (
+                            <a
+                              href={it.url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="font-semibold text-primary hover:underline"
+                              title={it.url}
+                            >
+                              {it.title} ↗
+                            </a>
+                          ) : (
+                            <span className="font-semibold">{it.title}</span>
+                          )}
+                          {it.required && <Badge tone="hot">required</Badge>}
+                        </div>
+                        {(it.when !== "n/a" || it.where !== "n/a") && (
+                          <div className="mt-0.5 text-xs text-on-surface-variant">
+                            {[it.when, it.where].filter((v) => v && v !== "n/a").join(" · ")}
+                          </div>
+                        )}
+                        {it.notes && <p className="mt-1 text-sm leading-relaxed text-on-surface-variant">{it.notes}</p>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
+        </Card>
+      )}
 
       {hike.sources.length > 0 && (
         <div className="mt-8 text-xs text-on-surface-variant">

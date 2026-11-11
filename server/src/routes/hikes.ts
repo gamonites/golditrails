@@ -149,6 +149,7 @@ router.get("/:slug", (req, res) => {
         description: hike.description,
         sources: hike.sources ? JSON.parse(hike.sources) : [],
         featured: !!hike.featured,
+        logistics: hike.logistics ? JSON.parse(hike.logistics) : null,
       },
       sections: parsed,
       profile: buildProfile(sections),

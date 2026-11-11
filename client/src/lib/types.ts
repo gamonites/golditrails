@@ -55,6 +55,25 @@ export interface CompositionEntry {
   isBypass: boolean;
 }
 
+export type LogisticsCategory = "transport" | "permit" | "lodging" | "booking" | "food" | "info";
+
+export interface LogisticsItem {
+  title: string;
+  category: LogisticsCategory;
+  required: boolean;
+  when: string;
+  where: string;
+  url: string | null;
+  notes: string;
+}
+
+export interface HikeLogistics {
+  slug: string;
+  getIn: string;
+  getOut: string;
+  items: LogisticsItem[];
+}
+
 export interface HikeDetailData {
   hike: Hike & {
     exposure: string | null;
@@ -62,6 +81,7 @@ export interface HikeDetailData {
     season: string | null;
     description: string | null;
     sources: string[];
+    logistics: HikeLogistics | null;
   };
   sections: Section[];
   profile: ProfilePoint[];

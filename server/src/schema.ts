@@ -51,8 +51,14 @@ export async function createSchema() {
     t.text("description");
     t.text("sources");
     t.boolean("featured").defaultTo(false);
+    t.text("logistics");
   });
   await knex.raw("CREATE UNIQUE INDEX IF NOT EXISTS hikes_slug_unique ON hikes (slug)");
+  if (!(await knex.schema.hasColumn("hikes", "logistics"))) {
+    await knex.schema.alterTable("hikes", (t) => {
+      t.text("logistics");
+    });
+  }
   await knex.schema.createTableIfNotExists("hike_sections", (t) => {
     t.increments("id").primary();
     t.integer("hike_id").notNullable().references("hikes.id").onDelete("CASCADE");
