@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { api } from "../lib/api";
 import { useUser } from "../lib/hooks";
@@ -8,6 +8,8 @@ import ElevationProfile from "../components/ElevationProfile";
 import HikeImage, { getManifest, type PhotoCredit } from "../components/HikeImage";
 import TrailMap from "../components/TrailMap";
 import { Alert, Badge, Button, Card, Spinner, Stat, categoryLabel, categoryTone } from "../components/ui";
+
+const Trail3D = lazy(() => import("../components/Trail3D"));
 
 function domainOf(u: string): string {
   try {
@@ -264,6 +266,25 @@ export default function HikeDetail() {
         </p>
         <div className="mt-4">
           <TrailMap sections={sections} />
+        </div>
+      </Card>
+
+      <Card className="mt-8 p-6">
+        <h2 className="text-lg font-bold">3D trail</h2>
+        <p className="mt-1 text-sm text-on-surface-variant">
+          The same approximate route draped over real elevation, one colour per day. Numbers mark each day's start —
+          drag to orbit, right-drag to pan, scroll to zoom.
+        </p>
+        <div className="mt-4">
+          <Suspense
+            fallback={
+              <div className="flex h-[440px] items-center justify-center rounded-xl border border-outline bg-surface-low">
+                <Spinner />
+              </div>
+            }
+          >
+            <Trail3D sections={sections} />
+          </Suspense>
         </div>
       </Card>
 
